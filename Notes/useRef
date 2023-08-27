@@ -1,0 +1,34 @@
+/*
+import './App.css';
+import { useState,useRef, React } from 'react';
+
+
+function App() {
+
+  const refElement = useRef("");
+  const [name,setName] = useState("Yoshita");
+  console.log(refElement);
+
+  function Reset()
+  {
+    setName("")
+    refElement.current.focus();
+    refElement.current.style.color='Black';
+  }
+  function colorChange(){
+    refElement.current.style.color='Blue';
+  }
+  return (
+    <>
+      <h1>Hello there I am learning useRef!!</h1>
+      <input ref={refElement} type='text' value={name}  onChange={(e)=>setName(e.target.value)}></input>
+      <button onClick={Reset}>Reset</button>
+      <button onClick={colorChange}>Change color</button>
+    </>
+  );
+
+}
+
+export default App;
+
+*/

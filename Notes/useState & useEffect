@@ -1,0 +1,36 @@
+/*
+function App() {
+
+  const [count,setCounter] = useState(0);
+  const[data,setData]=useState("Good Morning");
+  useEffect(()=>(
+    console.log("Let's Go!!")
+  ),[count
+  
+  ])
+  
+  function updateCount()
+  {
+     setCounter(count +1);
+  }
+
+  function updateData()
+  {
+    setData("Good Evening");
+  }
+  return (
+    <>
+    <p>Button Clicked {count} times!!</p>
+    <p>{data}</p>
+    <button onClick={updateCount}>
+        Click Me!
+    </button>
+
+    <button onClick={updateData}> Change state </button>
+
+    
+    </>
+  );
+}
+
+*/
